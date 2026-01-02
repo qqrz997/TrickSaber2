@@ -1,0 +1,22 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd'>
+
+    <stack pref-width="70" horizontal-fit="PreferredSize" vertical-fit="PreferredSize">
+
+        <bg bg="round-rect-panel" bg-alpha="0.8"/>
+
+        <vertical pad="2" horizontal-fit="Unconstrained" child-control-height="false" child-expand-height="false">
+
+            <stack vertical-fit="PreferredSize" pref-height="7">
+                <text text="Are you sure you want to remove this binding?" italics="true" align="Center" />
+            </stack>
+
+            <horizontal spacing="2">
+                <button text="Cancel" on-click="CancelPressed" horizontal-fit="Unconstrained" />
+                <action-button text="Confirm" on-click="ConfirmPressed" horizontal-fit="Unconstrained" />
+            </horizontal>
+
+        </vertical>
+
+    </stack>
+
+</bg>

@@ -1,0 +1,21 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd'>
+  
+  <stack pref-width="80" vertical-fit="PreferredSize" horizontal-fit="PreferredSize">
+    
+    <bg bg="round-rect-panel" bg-alpha="0.8"/>
+    
+    <vertical horizontal-fit="Unconstrained" pad="2">
+      
+      <stack pref-height="6" vertical-fit="PreferredSize">
+        <text text="WARNING" color="#ffb83d" font-size="5" align="Capline" />
+      </stack>
+      
+      <stack vertical-fit="PreferredSize">
+        <text id="WarningMessageText" text=" " font-size="4" align="Center" overflow-mode="Truncate" word-wrapping="true" />
+      </stack>
+      
+      <action-button text="Ok" on-click="OkButtonPressed" pref-width="22" />
+      
+    </vertical>
+  </stack>
+</bg>

@@ -1,0 +1,27 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd'>
+  
+  <stack pref-width="70" horizontal-fit="PreferredSize" vertical-fit="PreferredSize">
+
+  <bg bg="round-rect-panel" bg-alpha="0.8"/>
+
+    <vertical pad="2" horizontal-fit="Unconstrained" child-control-height="false" child-expand-height="false">
+      
+      <toggle-setting text="Enabled" value="Enabled" apply-on-change="true" />
+      <toggle-setting text="Tricks Affect Hitbox" value="TricksAffectHitbox" apply-on-change="true" />
+      <toggle-setting text="No Tricks During Notes" value="DisableDuringNotes" apply-on-change="true" />
+      
+      <stack pref-height="26" vertical-fit="PreferredSize">
+        <custom-list id="TrickConfigList" show-scrollbar="true"/>
+      </stack>
+
+      <horizontal pad-left="2" pad-right="2" spacing="2">
+        <button text="Create" on-click="AddButtonPressed" horizontal-fit="Unconstrained"/>
+        <button text="Edit" on-click="EditButtonPressed" horizontal-fit="Unconstrained"/>
+        <button text="Remove" on-click="DeleteButtonPressed" horizontal-fit="Unconstrained"/>
+      </horizontal>
+      
+    </vertical>
+  
+  </stack>
+
+</bg>

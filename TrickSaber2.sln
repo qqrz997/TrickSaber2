@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrickSaber2", "TrickSaber2\TrickSaber2.csproj", "{C73273AD-9665-4D66-9729-6903343B91A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C73273AD-9665-4D66-9729-6903343B91A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73273AD-9665-4D66-9729-6903343B91A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73273AD-9665-4D66-9729-6903343B91A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73273AD-9665-4D66-9729-6903343B91A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
